@@ -7,7 +7,7 @@ from PIL import Image
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 image_dir = os.path.join(BASE_DIR, "images")
 
-face_cascade = cv2.CascadeClassifier('E:\OPENCV\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('cascades\data\haarcascade_frontalface_default.xml')
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 
 
